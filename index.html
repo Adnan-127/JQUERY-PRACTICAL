@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/main.css" class="CSS">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="topBtn">Top</button>
+  <div class="navbar">
+    <ul>
+      <li><a href="#" data-scroll="Home">Home</a></li>
+      <li><a href="#" data-scroll="AboutUs">About Us</a></li>
+      <li><a href="#" data-scroll="Services">Services</a></li>
+      <li><a href="#" data-scroll="Solutions">Solutions</a></li>
+      <li><a href="#" data-scroll="Product">Product</a></li>
+      <li><a href="#" data-scroll="ContactUs">Contact Us</a></li>
+    </ul>
+  </div>
+  <!-- Start Fixed Menu -->
+  <div class="fixed-menu">
+    <i class="fa-solid fa-gear setting-icon"></i>
+    <h3>theme Settings</h3>
+    <ul class="theme">
+      <li class="dark"><i class="fa-solid fa-moon"></i></li>
+      <li class="light"><i class="fa-solid fa-sun"></i></li>
+    </ul>
+    <h3>account settings</h3>
+    your account
+  </div>
+  <!-- End Fixed Menu -->
+  <div class="block" id="Home">
+    <h2>Home</h2>
+    <span class="popBtn" data-pop=".first">Show 1st Popup</span>
+    <span class="popBtn" data-pop=".second">Show 2nd Popup</span>
+    <button class="download">
+      <span class="text">download</span>
+      <span class="red"></span>
+      <span class="black"></span>
+    </button>
+    <div class="progress red-prog">
+      <span data-prog="50%"></span>
+    </div>
+    <div class="progress blue-prog">
+      <span data-prog="90%"></span>
+    </div>
+    <div class="progress green-prog">
+      <span data-prog="65%"></span>
+    </div>
+    <!-- Start Slider Images -->
+    <div class="slider-images">
+      <span class="angle-right"><i class="fa-solid fa-angle-right"></i></span>
+      <span class="angle-left"><i class="fa-solid fa-angle-left"></i></span>
+      <div class="main-img">
+        <img src="images/shuffle-01.jpg" alt="">
+      </div>
+      <div class="imgs">
+        <img src="images/shuffle-01.jpg" alt="" class="selected">
+        <img src="images/shuffle-02.jpg" alt="">
+        <img src="images/shuffle-03.jpg" alt="">
+        <img src="images/shuffle-04.jpg" alt="">
+        <img src="images/shuffle-05.jpg" alt="">
+        <img src="images/shuffle-06.jpg" alt="">
+      </div>
+    </div>
+    <!-- End Slider images -->
+  </div>
+  <div class="block" id="AboutUs">
+    <h2>About Us</h2>
+    <!-- Start Info Cards -->
+    <div class="cards-section">
+      <i class="fa-solid fa-list list-icon"></i>
+      <i class="fa-solid fa-grip grip-icon active"></i>
+      <div class="cards-container">
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-01.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-02.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-03.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-04.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-05.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="card">
+          <h3>Kevin</h3>
+          <span class="date">15/6/2003</span>
+          <img src="images/friend-01.jpg" alt="">
+          <i class="fa-solid fa-plus more"></i>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Info Cards -->
+  </div>
+  <div class="block" id="Services">
+    <h2>Services</h2>
+    <!-- Start form -->
+    <form action="" class="inputs-container">
+      <div>
+        <input type="text" placeholder="Your Name" class="input" required="required">
+        <span class="wrong-message">It should Not be Empty</span>
+      </div>
+      <div>
+        <input type="email" placeholder="Your Email" class="input" required="required">
+        <span class="wrong-message">It should Not be Empty</span>
+      </div>
+      <div>
+        <input type="password" placeholder="Your Password" class="input" required="required">
+        <span class="wrong-message">It should Not be Empty</span>
+      </div>
+      <div class="file-input">
+        <input type="file">
+      </div>
+      <div>
+        <textarea placeholder="Your Message" class="input"></textarea>
+      </div>
+      <div>
+        <input type="text" placeholder="write a tag then put [,]" class="input tags">
+        <div></div>
+      </div>
+      <input type="submit">
+    </form>
+    <div>
+      <input type="text" class="keyCode" placeholder="the key code">
+      <span></span>
+    </div>
+    <!-- End form -->
+  </div>
+  <div class="block" id="Solutions">
+    <h2>Solutions</h2>
+    <!-- Start [...see more] -->
+    <div class="trimmed-text">
+      <div class="trim-container">
+        <p class="p-one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores deserunt temporibus
+          dignissimos
+          animi illo dolorem reprehenderit magnam officiis iste tempore necessitatibus exercitationem obcaecati, in
+          eveniet sequi corporis similique sed nam?.</p>
+      </div>
+      <div class="trim-container">
+        <p class="p-two">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores deserunt temporibus
+          dignissimos
+          animi illo dolorem reprehenderit magnam officiis iste tempore necessitatibus exercitationem obcaecati, in
+          eveniet sequi corporis similique sed nam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+          magnam, aspernatur eum adipisci, eveniet voluptatum nisi voluptate delectus quo quam iure. Minima aspernatur
+          molestiae aliquid quibusdam dolorem et cum eos!.</p>
+      </div>
+    </div>
+    <!-- End [...see more] -->
+    <!-- Start Bounce Effect On Button -->
+    <div class="bounce-effect ">
+      <button class="bounce-btn">click here</button>
+    </div>
+    <!-- End Bounce Effect On Button -->
+    <!-- Start ToDo List  -->
+    <div class="container">
+      <div class="todo-list">
+        <h3>ToDo List</h3>
+        <ul>
+          <li>do my home work</li>
+          <li>make my bed</li>
+          <li>go to the university</li>
+        </ul>
+        <form action="post" class="todo-form">
+          <input type="text" name="task" class="new-task" placeholder="add new task">
+        </form>
+      </div>
+    </div>
+    <!-- End ToDo List  -->
+    <!-- Start infinite writting -->
+    <div class="container">
+      <p class="typer" data-text="Lorem ipsum dolor sit amet."></p>
+      <span>|</span>
+    </div>
+    <!-- End infinite writting -->
+  </div>
+  <div class="block" id="Product">
+    <h2>Product</h2>
+    <!-- Start make all the elements in the same heigth -->
+    <div class="same-heigth">
+      <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, dolorum. Debitis harum alias accusamus
+        ullam?</div>
+      <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum optio eos, doloribus iusto amet consequuntur,
+        repudiandae soluta explicabo cupiditate dolorem beatae odio pariatur similique mollitia.</div>
+      <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam vitae voluptas quasi, dolore tempore,
+        aliquam aliquid expedita dolores vero in optio. Dolores ut nesciunt, est reiciendis cupiditate ab doloremque
+        aliquid nemo, aperiam quidem, placeat velit! Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+    <!-- End make all the elements in the same heigth -->
+
+    <!-- Start shuffle cards -->
+    <div class="cards">
+      <div class="card card-one"></div>
+      <div class="card card-two"></div>
+      <div class="card card-three"></div>
+      <div class="card card-four"></div>
+      <div class="card card-five"></div>
+      <div class="card card-six"></div>
+      <div class="card card-seven"></div>
+    </div>
+    <!-- End shuffle cards -->
+  </div>
+  <div class="block" id="ContactUs">
+    <h2>Contact Us</h2>
+    <!-- Start calculate total price -->
+    <div class="container">
+      <table>
+        <thead>
+          <th>product</th>
+          <th>category</th>
+          <th>price</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>iphone</td>
+            <td>XMAX</td>
+            <td>1500</td>
+          </tr>
+          <tr>
+            <td>samsung</td>
+            <td>A10</td>
+            <td>800</td>
+          </tr>
+          <tr>
+            <td>samsnung</td>
+            <td>S12</td>
+            <td>1100</td>
+          </tr>
+          <tr>
+            <td colspan="2">Total:</td>
+            <td class="the-total"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- End calculate total price -->
+
+    <!-- Start today's note -->
+    <div class="container">
+      <div class="today-note">
+        <h3>Today's Note &#128151</h3>
+        <ul>
+          <li class="active">Today's Note Test One</li>
+          <li>Today's Note Test Two</li>
+          <li>Today's Note Test Three</li>
+          <li>Today's Note Test Four</li>
+          <li>Today's Note Test Five</li>
+          <li>Today's Note Test six</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End today's note -->
+
+    <!-- Start dynamic tabs -->
+    <div class="container">
+      <span class="switch">Switch Style</span>
+      <div class="dynamic-tabs left-side">
+        <ul class="shuffle">
+          <li data-content=".content-one" class="active">One</li>
+          <li data-content=".content-two">Two</li>
+          <li data-content=".content-three">Three</li>
+          <li data-content=".content-four">Four</li>
+          <li data-content=".content-five">Five</li>
+        </ul>
+        <div class="content">
+          <p class="content-one show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
+            necessitatibus Lorem
+            ipsum dolor sit amet.[1].
+          </p>
+          <p class="content-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, necessitatibus
+            Lorem
+            ipsum dolor sit amet consectetur adipisicing elit.[2].
+          </p>
+          <p class="content-three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, necessitatibus
+            Lorem ipsum dolor sit.[3].
+          </p>
+          <p class="content-four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, necessitatibus
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aliquam.[4].
+          </p>
+          <p class="content-five">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, necessitatibus
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.[5].
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End dynamic tabs -->
+
+    <!-- Start suggestion box -->
+    <div class="container">
+      <form action="" class="email-form">
+        <input type="email" autocomplete="off" placeholder="your email" class="email-input" name="email">
+      </form>
+    </div>
+    <!-- End suggestion box -->
+  </div>
+  <!-- Strat Popup -->
+  <div class="first popup">
+    <div class="inner">
+      <h2>This Is 1st Popup</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere suscipit placeat ratione? Vel nesciunt
+        ipsum voluptatibus consequuntur amet perferendis.</p>
+      <button class="close">Close</button>
+    </div>
+  </div>
+  <div class="second popup">
+    <div class="inner">
+      <h2>This Is 2nd Popup</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facere suscipit placeat ratione? Vel nesciunt
+        ipsum voluptatibus consequuntur amet perferendis.</p>
+      <button class="close">Close</button>
+    </div>
+  </div>
+  <!-- End Popup -->
+  <script src="jquery/jquery-3.7.0.min.js"></script>
+  <script src="master.js"></script>
+</body>
+
+</html>
